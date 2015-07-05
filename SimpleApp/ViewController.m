@@ -21,6 +21,8 @@
     [self.view setBackgroundColor:[UIColor yellowColor]];
     
     [self.view setAlpha:0.7f];
+    [self.view setAlpha:0.5f];
+
 }
 
 - (void)didReceiveMemoryWarning {
