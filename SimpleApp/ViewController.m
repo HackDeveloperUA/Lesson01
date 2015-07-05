@@ -19,6 +19,8 @@
     
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor yellowColor]];
+    
+    [self.view setAlpha:0.7f];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,4 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void) myTestMethod {
+    NSLog(@"First Comment ");
+}
 @end
