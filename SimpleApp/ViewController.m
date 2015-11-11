@@ -22,6 +22,12 @@
     
     [self.view setAlpha:0.7f];
     [self.view setAlpha:0.5f];
+    
+    
+    
+    // Test Clone
+    [self.view setAlpha:0.54f];
+
 
 }
 
